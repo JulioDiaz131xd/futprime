@@ -22,7 +22,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
   bool _isPasswordVisible = false;
   bool _isConfirmPasswordVisible = false;
 
-  // Lista de usuarios permitidos para registro
   final Map<String, String> _allowedUsers = {
     'chuss': '123456',
     'admin': 'admin123',
@@ -34,7 +33,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
       final username = _emailController.text.toLowerCase();
       final password = _passwordController.text;
 
-      // Verificar si el usuario ya existe
       if (_allowedUsers.containsKey(username)) {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
@@ -45,7 +43,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
         return;
       }
 
-      // Verificar si es un usuario permitido
       if (username != 'chuss' && !username.startsWith('test')) {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
