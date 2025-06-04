@@ -1,16 +1,12 @@
-# futprime
+Solo permitirá registrar:
 
-A new Flutter project.
+Usuario 'chuss'
+Usuarios que empiecen con 'test'
+Contraseñas de al menos 6 caracteres
+No permitirá registrar usuarios ya existentes
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Solo funcionará con:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Usuario: chuss
+Contraseña: 123456
