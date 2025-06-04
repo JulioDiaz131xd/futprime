@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'screens/auth/login_screen.dart';
-import 'screens/auth/register_screen.dart'; // Añadir esta importación
+import 'screens/auth/register_screen.dart'; 
 import 'screens/players_page.dart';
 import 'screens/stadiums_page.dart';
 import 'screens/teams_page.dart';
 import 'screens/profile_page.dart';
 import 'screens/splash_screen.dart';
-import 'models/user.dart'; // Asegúrate de tener este modelo
+import 'models/user.dart'; 
 
 void main() {
   runApp(const MyApp());
